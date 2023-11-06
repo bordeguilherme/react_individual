@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1px;
+  background-image: url("./fundo.jpg");
+  background-size: 100%;
+  background-position: center;
+  color: #fff; /* Cor do texto */
 }
 
 code {
@@ -13,14 +20,15 @@ code {
 }
 
 .app-container {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  margin-top: 0;
 }
 
 .navigation {
-  background-color: #333;
+  background-image: url("./fundo2.jpg");
   color: #fff;
+  height: 30px;
 }
 
 .nav-list {
@@ -40,17 +48,9 @@ code {
 }
 
 .ingredient-list-container {
-  max-width: 600px;
+  max-width: 90%;
   margin: 0 auto;
-  padding: 20px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 2px;
 }
 
 .ingredient-ul {
@@ -64,20 +64,20 @@ code {
 
 .ingredient-link {
   text-decoration: none;
-  color: #0077b6;
+  color: #ccc;
 }
 
 .recipe-list-container {
-  max-width: 600px;
+  max-width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 2px;
 }
 
 .search-input {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #01b4eb;
   border-radius: 5px;
 }
 
@@ -92,5 +92,5 @@ code {
 
 .recipe-link {
   text-decoration: none;
-  color: #0077b6;
+  color: #ccc;
 }
